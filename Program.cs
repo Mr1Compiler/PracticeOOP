@@ -29,12 +29,13 @@ namespace Practice
 
 
 
-            clsPerson clsPerson2 = new clsPerson();
+            clsPerson Person2 = new clsPerson();
 
-            clsPerson2.FirstName = "Emma";
-            clsPerson2.LastName = "Jon"; 
+            Person2.FirstName = "Emma";
+            Person2.LastName = "Jon"; 
 
-            Console.WriteLine(clsPerson2.FullName());
+            Console.WriteLine(Person2.FullName());
+
 
             Console.ReadKey();
 
