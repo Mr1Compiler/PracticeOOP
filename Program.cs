@@ -27,6 +27,15 @@ namespace Practice
 
             Console.WriteLine(Person1.FullName());
 
+
+
+            clsPerson clsPerson2 = new clsPerson();
+
+            clsPerson2.FirstName = "Emma";
+            clsPerson2.LastName = "Jon"; 
+
+            Console.WriteLine(clsPerson2.FullName());
+
             Console.ReadKey();
 
 
