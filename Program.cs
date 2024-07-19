@@ -7,6 +7,7 @@ namespace Practice
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello from master brnach");
             Console.ReadKey();
         }
     }
