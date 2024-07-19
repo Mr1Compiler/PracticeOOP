@@ -10,11 +10,11 @@ namespace Practice
         public string Name { get; set; }
         public int Age { get; set; }
 
-        public clsPerson()
+        public clsPerson(int Id, string Name, short Age)
         {
-            ID = -1;
-            Name = "Empty";
-            Age = 0;
+            this.ID = Id;
+            this.Name = Name;
+            this.Age = Age;
         }
 
     }
@@ -23,7 +23,7 @@ namespace Practice
     { 
         static void Main(string[] args)
         {
-            clsPerson Person1 = new clsPerson();
+            clsPerson Person1 = new clsPerson(1, "Ayman", 22);
 
             Console.WriteLine($"ID = {Person1.ID} \nName = {Person1.Name} \nAge = {Person1.Age}");
 
